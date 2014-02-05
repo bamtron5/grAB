@@ -6,16 +6,19 @@ grAB is a light-weight ObjO AB testing platform that can replace html, change cs
 Examples:
 
 * [Change CSS](http://brandonam.com/grAB/grAB-example/?cam=a)
+
 Code:
 
 	`grAB.changeCss('campaign','jQuery element', '[array of css]');`
 
-* [Insert HTML from another file](http://brandonam.com/grAB/grAB-example/?cam=b) -- ``
+* [Insert HTML from another file](http://brandonam.com/grAB/grAB-example/?cam=b)
+
 Code:
 
 	`grAB.replaceHtml(campaign, jQuery element, file path);`	
 
 * [Simple Redirect](http://brandonam.com/grAB/grAB-example/?cam=c)
+
 Code:
 
 	`grAB.changeUrl(campaign, full url);`
