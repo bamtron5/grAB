@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="scripts/grAB-1.0beta.js"></script>
+	</head>
+	<body>
+		<div style="width:1050px; position:relative; margin:auto; padding-top:150px;">
+
+			<img src="images/google.png">		
+         	<div id="campaign" style="display:none">This is dynamic content determined by grAB.</div>
+		</div>
+
+		<script type="text/javascript">
+        	grAB.changeCss('a','#campaign', ["width","1050px", "height","300px","margin","40px auto 0 auto","display","block","color","black", "background","goldenrod","opacity",".5"]);
+			grAB.replaceHtml('b','#campaign','grAB/grAB-example/html-snippets/block1.html');
+			grAB.changeUrl('c','http://brandonam.com');
+        </script>
+	</body>
+</html>
